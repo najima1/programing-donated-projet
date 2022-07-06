@@ -1,0 +1,333 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap");
+
+/* default css will defined here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --width: 1140px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* .min_width{
+    max-width: 1140px;
+} */
+
+/* ====================css for header section==================== */
+.h_image {
+  background-image: linear-gradient(#414545ba, #3016979c),
+    url(./image/children.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.h_container {
+  max-width: var(--width);
+  margin: auto;
+}
+small.h_lorem {
+  display: block;
+  font-size: 2.9rem;
+  margin-top: 1rem;
+  color: white;
+  width: 57%;
+}
+
+span.h_support_text {
+  display: block;
+  color: white;
+  font-size: 21px;
+  margin-top: 2rem;
+}
+
+button.h_btn {
+  display: block;
+  background: teal;
+  border: none;
+  font-size: 1.5rem;
+  padding: 6px 14px;
+  border-radius: 3px;
+  color: white;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 1;
+}
+button.h_btn:hover::before {
+  width: 100%;
+  transition: 0.5s;
+}
+button.h_btn::before {
+  content: "";
+  display: block;
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 4px;
+  z-index: -1;
+}
+
+h1.h_donate_text {
+  display: block;
+  color: cyan;
+  letter-spacing: 0.5rem;
+  margin-top: 2rem;
+}
+/*==================== css for header section end==================== */
+
+/* ================ testimonial section ======================= */
+section.testimonial_section {
+  padding: 4rem 0rem;
+  background: #d4d4d4;
+  padding-bottom: 9rem;
+}
+.donate_wraper {
+  width: var(--width);
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.donated_header_left h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+span.help_text {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p.description_text {
+  font-style: italic;
+  font-style: oblique;
+}
+
+.donated_header_left {
+  padding-right: 8rem;
+}
+
+/* right side image */
+.donated_header_right img:hover {
+  transform: scale(1.1);
+  transition: 0.3s linear;
+  overflow: hidden;
+}
+
+.donated_header_right {
+  overflow: hidden;
+  width: 80%;
+  border-radius: 4px;
+}
+/* ================ testimonial section end======================= */
+
+/* ================ donate plan ============================ */
+.donatePlan {
+  width: var(--width);
+  margin: auto;
+  padding: 4rem 0rem;
+}
+
+.donatePlan_wraper {
+  display: flex;
+  align-items: center;
+  column-gap: 6rem;
+}
+
+.left_text_donate {
+  width: 50%;
+}
+
+.right_text_donate {
+  width: 50%;
+}
+
+.single_wraper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.singel {
+  width: 48%;
+  background: teal;
+  padding: 29px 15px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.icons {
+  display: block;
+  font-size: 2rem;
+}
+
+.singel h1 {
+  color: white;
+  margin-top: 1rem;
+}
+
+.singel p {
+  color: #ddd;
+  font-style: oblique;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+div#color2 {
+  background: #3f4e4f;
+  margin-top: -7px;
+}
+
+div#last_items {
+  background: #b05f5f;
+  margin-top: 7px;
+}
+
+div#single_box {
+  margin-bottom: -14px;
+  background: #1f4690;
+}
+.singel:hover {
+  padding-top: 10px;
+  transition: 0.5s;
+}
+.icons i {
+  color: white;
+}
+section.donated_section {
+  background-color: #f6c6ea59;
+}
+
+.left_text_donate h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid teal;
+  padding-bottom: 1px;
+}
+
+.left_text_donate p {
+  margin-top: 1rem;
+  font-size: 19px;
+}
+/* ================ donate plan end============================ */
+
+/*=============== poor people section =============== */
+.donate_wraper.wraperChange {
+  display: flex;
+  column-gap: 4rem;
+}
+
+.donated_header_rights img {
+  border-radius: 4px;
+}
+.donated_header_lefts h2 {
+    font-size: 3rem;
+}
+/*=============== poor people section end=============== */
+
+/* ============== get all update section ================= */
+section#update_section {
+    background: teal;
+    color: white;
+}
+.email_container {
+    width: var(--width);
+    margin: auto;
+    padding: 0rem 0rem;
+}
+.wraper_update {
+    max-width: 47%;
+    background: #2C394B;
+    padding: 21px 60px;
+    margin: auto;
+    position: relative;
+    top: -62px;
+    border-radius: 4px;
+}
+
+input.emails {
+    display: inline-block;
+    padding: 5px 17px;
+    width: 73%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+button.emailSubmit {
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 21px;
+    border: none;
+    margin-left: -5px;
+    border-radius: 1px 6px 6px 2px;
+    background: teal;
+    text-transform: capitalize;
+    color: white;
+}
+
+.emailBox {
+    margin: 27px 0px;
+}
+
+.header_email h1 {
+    margin-bottom: 10px;
+}
+/* ============== get all update section  end================= */
+
+/* ============= footer ==================== */
+.footer_wraper {
+    width: var(--width);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 3rem;
+}
+
+footer#footer {
+    background: #06283D;
+    color: white;
+    padding: 4rem 0rem;
+}
+
+.single_footer h1 {
+    border-bottom: 2px solid;
+    padding-bottom: 6px;
+}
+
+ul li {
+    list-style: none;
+    padding: 3px 0px;
+}
+
+ul {
+    margin-top: 2rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+ul li:hover {
+    letter-spacing: 3px;
+    transition: .5s;
+}
+.single_wrapers {
+    box-sizing: border-box;
+    width: 28%;
+}
+/* ============= footer end==================== */
